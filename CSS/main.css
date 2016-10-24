@@ -15,12 +15,64 @@ GRID FOR BOXES - usable for whole site
 .box-4 {
     width:100%;
 }
-
+#wrapper {
+    max-width:980px;
+    margin:0 auto;
+}
 /*********************
 HEADER
 **********************/
 
+/* top menu */
+#header .top-menu {
+    width:100%;
+    display:inline-block;
+    background:#fff;
+    min-height:50px;
+}#header .top-menu ul {
+    display:inline-block;
+    float:right;
+ }
+ #header .top-menu ul li {
+     display:inline-block;
+     color:#4a1070;
+ }
 
+ /* main menu */
+
+#header .main-header {
+    width:100%;
+    display:block;
+    background:#4a1070;
+    height:100px;
+}
+#header .main-header .logo {
+    width:20%;
+    float:left;
+}
+#header .main-header .main-menu {
+    width: 60%;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    height: 80px;
+}
+#header .main-menu .search {
+    width:20%;
+    float:left;
+}
+#header .main-menu ul {
+    display: block;
+    width: 100%;
+    line-height: 80px;
+}
+#header .main-menu ul li {
+    display:inline-block;
+    padding:0 10px;
+}
+#header .main-menu ul li {
+
+}
 /*********************
 FOOTER
 **********************/
