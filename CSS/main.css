@@ -1,0 +1,26 @@
+/*************************************
+GRID FOR BOXES - usable for whole site
+**************************************/
+.box-1 {
+    width:25%;
+    display:inline-block;
+}
+.box-2 {
+    width:50%;
+    display:inline-block;
+}
+.box-3 {
+    width:75%;
+}
+.box-4 {
+    width:100%;
+}
+
+/*********************
+HEADER
+**********************/
+
+
+/*********************
+FOOTER
+**********************/
